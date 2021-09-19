@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { Movies } from "./components/Info/Movies";
-import { Character } from "./components/Info/Characters";
+import { Character } from "./components/Info/Character";
 import { Navbar } from "./components/Info/Navbar";
   
 
@@ -37,7 +37,7 @@ function App() {
             return <Movies key={i} movies={movies} movieHandler={movieHandler} />
           })}
           </Route>
-          <Route exact path="/Characters" >
+          <Route exact path="/Character" >
         <Character moviePeople={pplList}/>
         </Route>
         </Switch>

@@ -8,7 +8,7 @@ export const Movies = ({ movies, movieHandler }) => {
   const listHandler = () => {
     const moviesCharacter = movies;
     movieHandler(moviesCharacter);
-     history.push("/Characters");
+     history.push("/Character");
   };
   return(
       <Card bg="primary" style={{ width: "200rem" }} onClick={listHandler}>

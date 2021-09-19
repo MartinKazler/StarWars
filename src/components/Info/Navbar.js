@@ -8,7 +8,7 @@ export const Navbar = () => {
         <NavLink to="/Movies" style={{color: "red"}}>
          <p> Movies </p>
         </NavLink>
-        <NavLink to="/Characters" style={{color: "red"}}>
+        <NavLink to="/Character" style={{color: "red"}}>
         <p> Characters </p>
         </NavLink>
       </div>
